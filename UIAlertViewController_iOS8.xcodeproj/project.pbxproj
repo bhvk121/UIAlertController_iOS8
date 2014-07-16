@@ -10,6 +10,10 @@
 		7BB60BAE19768829002872F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB60BAD19768829002872F6 /* AppDelegate.swift */; };
 		7BB60BB019768829002872F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BB60BAF19768829002872F6 /* Images.xcassets */; };
 		7BB60BBC1976882A002872F6 /* UIAlertViewController_iOS8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB60BBB1976882A002872F6 /* UIAlertViewController_iOS8Tests.swift */; };
+		7BB60BC719768A01002872F6 /* SAListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB60BC519768A01002872F6 /* SAListViewController.swift */; };
+		7BB60BC819768A01002872F6 /* SAListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BB60BC619768A01002872F6 /* SAListViewController.xib */; };
+		7BB60BCB19768A15002872F6 /* SADetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB60BC919768A15002872F6 /* SADetailViewController.swift */; };
+		7BB60BCC19768A15002872F6 /* SADetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BB60BCA19768A15002872F6 /* SADetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +34,10 @@
 		7BB60BB51976882A002872F6 /* UIAlertViewController_iOS8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIAlertViewController_iOS8Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BB60BBA1976882A002872F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BB60BBB1976882A002872F6 /* UIAlertViewController_iOS8Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertViewController_iOS8Tests.swift; sourceTree = "<group>"; };
+		7BB60BC519768A01002872F6 /* SAListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAListViewController.swift; sourceTree = "<group>"; };
+		7BB60BC619768A01002872F6 /* SAListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SAListViewController.xib; sourceTree = "<group>"; };
+		7BB60BC919768A15002872F6 /* SADetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SADetailViewController.swift; sourceTree = "<group>"; };
+		7BB60BCA19768A15002872F6 /* SADetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SADetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,10 @@
 				7BB60BAD19768829002872F6 /* AppDelegate.swift */,
 				7BB60BAF19768829002872F6 /* Images.xcassets */,
 				7BB60BAB19768829002872F6 /* Supporting Files */,
+				7BB60BC519768A01002872F6 /* SAListViewController.swift */,
+				7BB60BC619768A01002872F6 /* SAListViewController.xib */,
+				7BB60BC919768A15002872F6 /* SADetailViewController.swift */,
+				7BB60BCA19768A15002872F6 /* SADetailViewController.xib */,
 			);
 			path = UIAlertViewController_iOS8;
 			sourceTree = "<group>";
@@ -182,6 +194,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BB60BC819768A01002872F6 /* SAListViewController.xib in Resources */,
+				7BB60BCC19768A15002872F6 /* SADetailViewController.xib in Resources */,
 				7BB60BB019768829002872F6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,6 +214,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BB60BC719768A01002872F6 /* SAListViewController.swift in Sources */,
+				7BB60BCB19768A15002872F6 /* SADetailViewController.swift in Sources */,
 				7BB60BAE19768829002872F6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
