@@ -20,12 +20,15 @@ class SADetailViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-		configureView()
-        // Do any additional setup after loading the view.
+		        // Do any additional setup after loading the view.
     }
 	
+	override func viewDidAppear(animated: Bool){
+		configureView()
+	}
+
+	
 	func configureView(){
-		
 		
 		switch alertType{
 		case 0 :
@@ -72,7 +75,7 @@ class SADetailViewController: UIViewController {
 		}
 		
 		self.presentViewController(alert!, animated: true, completion: nil)
-//		NSTimer.scheduledTimerWithTimeInterval(2.5, target: self, selector: Selector("PopViewController"), userInfo: nil, repeats: false)
+		NSTimer.scheduledTimerWithTimeInterval(5.5, target: self, selector: Selector("PopViewController"), userInfo: nil, repeats: false)
 		
 	}
 
